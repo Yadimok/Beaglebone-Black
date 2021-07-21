@@ -1,0 +1,1 @@
+"./main.o" -Wl,-T"configPkg/linker.cmd" -Wl,--start-group -lgcc -lm -lrdimon -lc -l:ti.csl.aa8fg -l:ti.drv.gpio.aa8fg -l:ti.drv.uart.aa8fg -Wl,--end-group 
