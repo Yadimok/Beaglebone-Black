@@ -1,0 +1,1 @@
+"./UART_soc.o" "./main.o" "./nimu_osal.o" -Wl,-T"configPkg/linker.cmd" -Wl,--start-group -lgcc -lm -lnosys -lc -lrdimon -l:os.aa8fg -Wl,--end-group 
